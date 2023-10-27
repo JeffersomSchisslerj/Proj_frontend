@@ -1,0 +1,187 @@
+:root{
+    --branco-Principal:#ffffff;
+    --azul-claro:#4e4eeb;
+    --azul-escuro:#00008a;
+    --laranja:#ffa500;
+    --vermelho:#ff0000;
+    --preto_principal:#000;
+}
+header{
+     background-image:url(./imagens_projeto/fundo.jpg);
+     backdrop-filter:blur(12px);
+     padding: 8px;
+     margin: 0;
+     color:var(--branco-Principal);
+     font-size:20px;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url(imagens_projeto/biblioteca_de_\ fundo02.jpg);
+    background-repeat:repeat;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:var(--preto_principal);
+    text-align: center;
+}
+
+a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+
+
+.titulo_principal{
+    padding: 6px;
+    font-style: italic;
+}
+
+
+.conteiner_lista{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    padding:6px 18px;
+    margin: 10px 5px;
+    text-decoration: none;
+    color:var(--preto_principal);
+    overflow: hidden; 
+
+
+}
+
+img {
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .3s ease;
+  }
+
+
+.lista_itens:hover img{
+    transform: scale(1.1); 
+    box-shadow: 0 0 7px transparent;
+    
+
+}
+
+.lista_itens:hover {
+    box-shadow: 0 0 30px #000;
+    transition: transform .3s ease;
+}
+
+
+.lista_itens{
+    display:inline;
+    margin:0 20px;    
+    padding-top:0 3px;
+    font-size:23px ;
+    border: #000 solid 6px;
+    border-radius:23px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+    align-items: center;
+    
+    
+}
+
+.img_capa{
+    display: inline;
+    width:178px ;
+    height:270px ;
+    border-radius: 8px;  
+}
+
+.img_02{
+    border: transparent solid 3px;
+    border-radius:8px ;
+    overflow: hidden;
+}
+
+
+.rodape{
+    background-color:black;
+    opacity: 74%;
+    color: var(--branco-Principal);
+    text-align: center;
+    padding: 2%;
+    margin: 0px;
+}
+
+.descricao_Principal{
+    text-align: center;
+    font-style: italic;
+}
+
+ ul li{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    font-style: bold;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+
+.lista_livros{
+    font-style: italic;
+    text-align: left;
+    padding: 6px 10px;
+    text-align: center;
+}
+
+
+.conteinerheader{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.lista02{
+    color: var(--branco-Principal);
+
+}
+
+.lista02:hover{
+    border: #000 solid 3px;
+    border-radius: 29px;
+    transition-duration: 0.5s;
+    background-color:lightslategray;
+}
+
+.botaoVoltar{
+    background-color:#1e70c2;
+    color:var(--preto_principal);
+    margin-top: 26px;
+    margin-bottom: 30px;
+    padding:  10px;
+    text-align:right;
+    border: 4px solid black;
+    border-radius: 23px;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:19px;
+}
+
+.botaoVoltar:hover{
+    background-color:#123456;
+    color:green;
+    transition-duration:0.3s;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    padding:  10px;
+    text-align:right;
+    border: 4px solid black;
+    border-radius: 23px;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:20px;
+}
+
+
